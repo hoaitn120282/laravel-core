@@ -1,7 +1,10 @@
 {
-    "name": "serayusoft/serayucms",
+    "name": "qsoft/cms",
     "description": "CMS with Laravel Framework.",
-    "keywords": ["CMS", "laravel"],
+    "keywords": [
+        "CMS",
+        "laravel"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -40,8 +43,7 @@
             "App\\": "app/",
             "Qsoftvn\\ShoppingCart\\": "packages/qsoftvn/shopping-cart/src"
         },
-        "files": [
-        ]
+        "files": []
     },
     "autoload-dev": {
         "classmap": [
