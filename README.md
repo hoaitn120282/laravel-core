@@ -16,7 +16,7 @@ Please check the system requirements before installing QSoft CMS.
 
 * You may install by cloning from github, or via composer.
     * Github:
-        * https://github.com/hoaitn120282/laravel-core.git
+        * git clone https://github.com/hoaitn120282/laravel-core.git
         * From a command line open in the folder, run: composer install/update.    
 * Enter your database details in .env file on root folder.
 	* run: php artisan key:generate	
