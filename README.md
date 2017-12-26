@@ -26,7 +26,7 @@ Please check the system requirements before installing QSoft CMS.
 * You can configure the site in the config folder before production.
 * Finally, setup an Apache VirtualHost to point to the "public" folder.
 * For development, you can simply run: php artisan serve
-## Features
+## Main Features
 * Content management:
 - Category multi level
 - Pages, Post, Tags
@@ -38,11 +38,13 @@ Please check the system requirements before installing QSoft CMS.
 * Role & permission management
 * User management
 * Setting
-* Language management
+* Multi language
 * Authentication
+* Contact management
+* Media management
 * Integrate API modules for each outputs
 
-## Administrator Login
+## Administrator Panel
 * Url: Your-Host/admin
 * Superuser : 
     *  Username : henry.tran@qsoft.com.vn
