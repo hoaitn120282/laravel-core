@@ -1,0 +1,95 @@
+// // Grid system
+// //
+// // Generate semantic grid columns with these mixins.
+// // Centered jwl-container element
+// @mixin jwl-container-fixed($gutter: $grid-gutter-width) {
+//   margin-right: auto;
+//   margin-left: auto;
+//   padding-left: floor(($gutter / 2));
+//   padding-right: ceil(($gutter / 2));
+//   @include clearfix;
+// }
+
+// // Generate padding with these mixins.
+// @mixin pd($padding) {
+//   .pdl-#{$padding} {
+//     padding-left: #{$padding}px !important;
+//   }
+//   .pdr-#{$padding} {
+//     padding-right: #{$padding}px !important;
+//   }
+//   .pdb-#{$padding} {
+//     padding-bottom: #{$padding}px !important;
+//   }
+//   .pdt-#{$padding} {
+//     padding-top: #{$padding}px !important;
+//   }
+//   .pd-#{$padding} {
+//     padding: #{$padding}px !important;
+//   }
+// }
+
+// // Generate margin with these mixins.
+// @mixin mg($margin) {
+//   .mgl-#{$margin} {
+//     margin-left: #{$margin}px !important;
+//   }
+//   .mgr-#{$margin} {
+//     margin-right: #{$margin}px !important;
+//   }
+//   .mgb-#{$margin} {
+//     margin-bottom: #{$margin}px !important;
+//   }
+//   .mgt-#{$margin} {
+//     margin-top: #{$margin}px !important;
+//   }
+//   .mg-#{$margin} {
+//     margin: #{$margin}px !important;
+//   }
+// }
+
+// // Generate border with these mixins.
+// @mixin border($border) {
+//   .bdt-#{$border} {
+//     border-top: #{$border}px !important;
+//   }
+//   .bdb-#{$border} {
+//     border-bottom: #{$border}px !important;
+//   }
+//   .bdl-#{$border} {
+//     border-left: #{$border}px !important;
+//   }
+//   .bdr-#{$border} {
+//     border-right: #{$border}px !important;
+//   }
+//   .bd-#{$border} {
+//     border: #{$border}px !important;
+//   }
+// }
+
+// @mixin border-style($style) {
+//   .bds-#{$style} {
+//     border-style: #{$style} !important;
+//   }
+// }
+
+// // Generate font-family
+// @mixin ffamily($font-family) {
+//   .ffamily-#{$font-family} {
+//     font-family: #{$font-family};
+//   }
+// }
+
+// // Generate fonts size
+// @mixin fsize($size) {
+//   .fsize-#{$size} {
+//     font-size: #{$size}px !important;
+//   }
+// }
+
+// // Generate fonts size
+// @mixin lheight($size) {
+//   .lheight-#{$size} {
+//     line-height: #{$size}px !important;
+//   }
+// }

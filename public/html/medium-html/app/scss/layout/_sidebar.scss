@@ -1,0 +1,153 @@
+.sidebar-right{
+  border: 1px solid #e1e1e1;
+  border-top-color: #b3cdde;
+  width: 100%;
+  margin-top: 45px;
+
+  .sidebar-title{
+    font-size: 20px;
+    font-family: "Raleway-Bold";
+    text-transform: inherit;
+  }
+
+
+  & h3{
+    font-family: "Raleway-Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  & .news-item{
+    padding: 0 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out ;
+    -ms-transition: all .3s ease-in-out ;
+    -o-transition: all .3s ease-in-out ;
+    transition: all .3s ease-in-out ;
+    
+    &:last-child {
+      & .item-detail{
+        border: none;
+      }
+    }
+
+    &:hover{
+      background: #fafafa;
+    }
+
+    & .item-detail{
+      border-bottom: 1px solid #e5e5e5;
+      padding: 20px 0px;
+
+      & figure{
+        padding-right: 0;
+      }
+
+      & .title{
+        font-size: 16px;
+        font-family: "Raleway-Bold";
+        margin-bottom: 5px;
+        margin-top: 0;
+      }
+
+      & .date{
+        font-size: 10px;
+        font-family: "Raleway-Italic";
+        margin-bottom: 5px;
+      }
+
+      & .text{
+        color: #a9a9a9;
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+  }
+
+  .make-appointment{
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    & header{
+      & h4{
+        margin: 10px 0 10px;
+      }
+
+      & p{
+        color: #909090;
+        margin-bottom: 10px;
+      }
+
+      & .btn-make-appointment{
+        padding: 7px 15px;
+      }
+    }
+  }
+
+  .btn-seemore{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0;
+    background: #b3cdde;
+    color: #ffffff;
+    font-family: "Raleway-Black";
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+& .make-appointment{
+  text-align: center;
+  margin-top: 35px;
+
+  & figure{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    & img{
+    }
+  }
+
+  & header{
+    & h4{
+      font-size: 20px;
+      font-family: "Raleway-Bold";
+      margin: 15px 0 10px;
+    }
+
+    & p{
+      color: #909090;
+      margin-bottom: 15px;
+    }
+
+    & .btn-make-appointment{
+      text-transform: uppercase;
+      font-family: $button-font-family;
+      background: $button-background;
+      color: $button-color;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: $button-border-size;
+      border-style: $button-border-style;
+      border-color: $button-border-color;
+
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -ms-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+
+      &:hover{
+        border-color: $button-hover-border-color;
+        background: $button-hover-background;
+        color: $button-hover-color;
+      }
+    }
+  }
+}

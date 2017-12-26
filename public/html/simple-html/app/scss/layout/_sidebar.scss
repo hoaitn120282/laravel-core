@@ -1,0 +1,56 @@
+/***** Sidebar Right *****/
+.sidebar-right {
+	border: 1px solid #e1e1e1;
+	border-top: 2px solid #c2c7d1;
+	text-align: center;
+	padding-bottom: 40px;
+
+	& .make-appointment{
+		text-align: center;
+		margin-top: 35px;
+
+		& figure{
+			height: 150px;
+			width: 150px;
+			overflow: hidden;
+			border-radius: 50%;
+			margin: 0 auto;
+			& img{
+			}
+		}
+
+		& header{
+			& h4{
+				font-size: 20px;
+				font-family: $font-bold;
+				margin: 15px 0 10px;
+			}
+
+			& p{
+				color: $text-position-cl;
+				margin-bottom: 15px;
+			}
+			
+			& .btn-make-appointment{
+				text-transform: uppercase;
+				font-family: $font-black;
+				background: $btn-make-bg;
+				color: #fff;
+				padding: 10px 15px;
+				border-radius: 5px;
+				border: 1px solid transparent;
+				-webkit-transition: all .5s ease-in-out;
+				   -moz-transition: all .5s ease-in-out;
+				    -ms-transition: all .5s ease-in-out;
+				     -o-transition: all .5s ease-in-out;
+				        transition: all .5s ease-in-out;
+
+				&:hover{
+					border: 1px solid $btn-make-bg;
+					background: transparent;
+					color: #222222;
+				}
+			}
+		}
+	}
+}

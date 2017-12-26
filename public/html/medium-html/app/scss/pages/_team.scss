@@ -1,0 +1,111 @@
+.team-list{
+  .team-member{
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    figure{
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 0 auto;
+      height:250px;
+      width: 250px;
+    }
+
+    header{
+      h4{
+        font-family: "Raleway-Bold";
+        font-size: 25px;
+      }
+
+      p{
+        font-size: 16px;
+        color: #909090;
+      }
+    }
+  }
+}
+
+.team-detail{
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  margin: 45px 0;
+  padding: 0;
+
+  .member-header{
+    padding: 25px 0;
+    margin: 0 15px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+
+    figure{
+      float: right;
+      overflow: hidden;
+      border-radius: 50%;
+      height:250px;
+      width: 250px;
+    }
+
+    header{
+      padding: 50px 0 0 10px;
+      h4 {
+        font-size: 30px;
+        font-family: "Raleway-Bold";
+
+      }
+
+      p {
+        color: #909090;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .member-info{
+    padding: 15px;
+    padding-bottom: 45px;
+    h5 {
+      font-size: 20px;
+      font-family: "Raleway-Bold";
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-list {
+    .team-member {
+      figure{
+        width: inherit;
+        height: inherit;
+        max-height: 235px;
+        max-width: 235px;
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .team-list {
+    .team-member {
+      figure{
+        width: inherit;
+        height: inherit;
+        max-height: 235px;
+        max-width: 235px;
+      }
+    }
+  }
+
+  .sb-team-detail{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-detail{
+    .member-header{
+      header{
+        text-align: center;
+      }
+    }
+  }
+}

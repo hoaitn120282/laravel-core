@@ -1,0 +1,36 @@
+/***** Back to top *****/
+#back-to-top{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  position: fixed;
+  text-align: center;
+  bottom: 60px;
+  right: 10%;
+  transition: all 0.2s ease-out;
+  opacity: 0;
+  z-index: 999;
+
+  &:hover{
+    border: 2px solid #ddd;
+  }
+
+  & i{
+    margin: 0;
+    font-size: 32px;
+    color: #ccc;
+  }
+
+  &.show {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 769px) {
+  #back-to-top{
+    bottom: 15px;
+    right: 15px;
+  }
+}

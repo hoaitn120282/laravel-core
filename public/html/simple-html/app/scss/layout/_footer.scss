@@ -1,0 +1,9 @@
+footer {
+	background-color: $bg-bottom-cl;
+
+	& p{
+		font-size: $font-size-text-bt;
+		text-align: left;
+		padding: 15px 0;
+	}
+}

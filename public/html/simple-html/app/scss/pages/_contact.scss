@@ -1,0 +1,41 @@
+.content{
+	& .content-contact{
+		border: none;
+		padding: 0;
+
+		& .ct-detail{
+			& h3{
+				font-size: 30px;
+				font-family: $font-black;
+				margin-top: 0;
+			}
+
+			& p{
+				margin-bottom: 30px;
+			}
+
+			& .contact-info{
+				margin-bottom: 30px;
+				& li{
+					font-size: 16px;
+					color: #222222;
+					font-family: $font-bold;
+					margin: 10px 0;
+
+					& span{
+						color: #909090;
+						font-family: $font-italic;
+						width: 170px;
+						font-size: 16px;
+						display: inline-block;
+					}
+				}
+			}
+
+			& .contact-map{
+				max-height: 540px;
+				width: 100%;
+			}
+		}
+	}
+}

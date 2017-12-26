@@ -1,0 +1,28 @@
+.content{
+	margin-bottom: 40px;
+
+	& .content-dt{
+		border: 1px solid #e1e1e1;
+		padding: 30px;
+		border-radius: 3px;
+
+		& .gallery{
+			& img{
+			}
+		}
+	}
+
+	& .ct-detail{
+		& h3 {
+			font-family: $font-bold;
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (max-width: 769px) {
+	.content-dt{
+		margin-bottom: 20px;
+	}
+}

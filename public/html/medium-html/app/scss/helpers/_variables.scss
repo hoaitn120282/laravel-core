@@ -1,0 +1,54 @@
+/**** widget title ****/
+$widget-title-color: #222222;
+$widget-title-font-family: "Raleway-Black";
+$widget-title-font-size: 30px;
+
+/**** Slide title ****/
+$slide-title-color: #ffffff;
+$slide-title-font-size: 50px;
+$slide-title-font-family: "Raleway-Bold";
+
+/**** Body ****/
+$page-color: #222222; //Color default all page
+$page-font-family: 'Raleway-Medium'; //Font family default all page
+$page-font-size: 14px; //Font size default all page
+
+/**** Site Title ****/
+$site-title-color: #222222; //Site title color
+$site-title-size: 30px;//Site title font size
+$site-title-font-family: "Raleway-Black"; //Site title color font family
+
+/**** Button ****/
+$button-font-family: "Raleway-Black"; //Button font family
+$button-background:	#f48100; // Button background
+$button-color: #ffffff; // Button text color
+$button-border-color: transparent; //Button border color
+$button-border-style: solid; //Button border style
+$button-border-size: 1px; //Button border size
+
+$button-hover-border-color: $button-background; //Button hover border
+$button-hover-background: transparent; //Button hover background
+$button-hover-color: #222222;//Button hover text color
+
+/**** Menu ****/
+$menu-color: #222222; //Color menu link
+$menu-font-family: "Raleway-Black";  //Font family menu
+$menu-font-size: 16px;
+
+$menu-hover-color: #c2c7d1;
+
+/**** Sologan ****/
+$sologan-color: #222222;//Sologan colo
+$sologan-font-: 16px;//Sologan font size
+$sologan-font-family: "Raleway-Bold"; //Sologan font family
+
+/**** Link ****/
+$link-color: #222222;
+$link-font-size: 16px;
+$link-hover-color: #c2c7d1;
+
+/**** Banner title ****/
+$banner-title-size: 50px;
+$banner-title-font-family: "Raleway-Bold";
+$banner-title-color: #ffffff;
+$banner-backgroudn-image: url("../images/banner.jpg");
