@@ -30,7 +30,7 @@ Please check the system requirements before installing QSoft CMS.
 * Content management:
 - Category multi level
 - Pages, Post, Tags
-- Build content with multi language
+- Build all content with multi language
 * Menu management
 * Widget management
 * Theme management
