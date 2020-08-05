@@ -1,18 +1,18 @@
-# QSoft CMS
+# BASE CMS
 This is an implementation of Content Management System based on [Laravel 5.2](http://laravel.com/) 
 
 ## System Requirements
-QSoft is designed to run on a machine with PHP 5.5.9 and MySQL 5.5.
+CMS is designed to run on a machine with PHP 5.5.9 and MySQL 5.5.
 
 * PHP >= 5.5.9 with
     * OpenSSL PHP Extension
     * PDO PHP Extension
     * Mbstring PHP Extension
     * Tokenizer PHP Extension
-* [Composer](https://getcomposer.org/) installed to load the dependencies of QSoft CMS.
+* [Composer](https://getcomposer.org/) installed to load the dependencies of Base CMS.
 
 ## Installing
-Please check the system requirements before installing QSoft CMS.
+Please check the system requirements before installing Base CMS.
 
 * You may install by cloning from github, or via composer.
     * Github:
