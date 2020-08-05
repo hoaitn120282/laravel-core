@@ -52,4 +52,4 @@ Please check the system requirements before installing Base CMS.
 
 ## License
 
-QSoft CMS is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Base CMS is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
