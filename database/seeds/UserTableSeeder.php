@@ -15,7 +15,7 @@ class UserTableSeeder extends Seeder
         	[
 	            'role_id' => 1,
 	            'name' => 'Administrator',
-	            'email' => 'henry.tran@qsoft.com.vn',
+	            'email' => 'henry.tran.lsvn@gmail.com',
 	            'is_admin' => true,
 	            'password' => bcrypt('Admin@123456!'),
                 'photo' => "default-user.png"
