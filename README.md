@@ -47,7 +47,7 @@ Please check the system requirements before installing Base CMS.
 ## Administrator Panel
 * Url: Your-Host/admin
 * Superuser : 
-    *  Username : henry.tran@qsoft.com.vn
+    *  Username : henry.tran.lsvn@gmail.com
     *  Password : Admin@123456!
 
 ## License
